@@ -1,0 +1,45 @@
+{
+  "version": 5,
+  "registerSourceHash": "b050670ce94c31d3c80a73a1b8c4773abcba1f5d",
+  "components": [
+    {
+      "fullName": "C__vueJs_simple_vue_composition_src_components_Counter_vue",
+      "importPath": "C:\\vueJs\\simple-vue-composition\\src\\components\\Counter.vue",
+      "isModuleOrAlias": false
+    }
+  ],
+  "tests": {
+    "C:\\vueJs\\simple-vue-composition\\src\\components\\Counter.spec.ts": {
+      "timestamp": 1657419927205,
+      "components": [
+        "C__vueJs_simple_vue_composition_src_components_Counter_vue"
+      ]
+    }
+  },
+  "sources": {
+    "C:/vueJs/simple-vue-composition/playwright/index.html": {
+      "timestamp": 1657422124758.651
+    },
+    "C:/vueJs/simple-vue-composition/playwright/index.js": {
+      "timestamp": 1657422167675.214
+    },
+    "C:/vueJs/simple-vue-composition/node_modules/vue/dist/vue.runtime.esm-bundler.js": {
+      "timestamp": 1657380565512
+    },
+    "C:/vueJs/simple-vue-composition/src/components/Counter.vue": {
+      "timestamp": 1657419130537
+    },
+    "C:/vueJs/simple-vue-composition/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": {
+      "timestamp": 1657380565530
+    },
+    "C:/vueJs/simple-vue-composition/node_modules/@vue/shared/dist/shared.esm-bundler.js": {
+      "timestamp": 1654670772966
+    },
+    "C:/vueJs/simple-vue-composition/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": {
+      "timestamp": 1657380565715
+    },
+    "C:/vueJs/simple-vue-composition/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": {
+      "timestamp": 1657380565718
+    }
+  }
+}
