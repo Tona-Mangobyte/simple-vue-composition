@@ -1,12 +1,14 @@
 <script>
   import { reactive } from "vue";
-  export default {
+  import {defineComponent} from "@vue/composition-api";
+  export default defineComponent({
     setup(_, { emit }) {
       const state = reactive({
         count: 0,
       })
       function increment() {
         state.count++
+        console.info(state.count)
         emit('changed', state.count)
       }
       return {
@@ -15,7 +17,7 @@
       }
     },
     emits: ['changed']
-  }
+  })
 </script>
 
 <template>

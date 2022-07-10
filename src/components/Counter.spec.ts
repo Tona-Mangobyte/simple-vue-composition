@@ -17,4 +17,6 @@ test('should work', async ({ mount }) => {
   expect(values).toEqual([1, 2])
   await component.click()
   expect(values).toEqual([1, 2, 3])
+  await component.click()
+  expect(values).toEqual([1, 2, 3, 4])
 })
